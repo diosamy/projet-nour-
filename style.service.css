@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1,300 & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+
+    position: relative;
+    width: 1424px;
+    height: 1700px;
+    background: #FFFFFF; ;
+}
+
+nav{
+    background: white;
+    height: 80px;
+    width: 100%;
+}
+label{
+    color: white;
+    font-size: 5px;
+}
+label.logo{
+    
+}
+nav ul{
+    float: right;
+    margin-right: 10px;
+}
+nav ul li{
+   display: inline-block;
+   line-height: 60px;
+   margin: 0 60px;
+   white-space: 10px;
+   margin-left: 100px;
+   font-family: Arial, Helvetica, sans-serif;  
+}
+.service{
+    background-color: rgba( 239, 173, 16, 0.76);
+    height: 800px;
+    width: 1458px;
+
+    margin-top: 30px;
+}
+#trans{
+    margin-left: 500px;
+    margin-top: 80px;
+    color: #020086;
+    font-size: 45px;
+    position: absolute;
+}
+#im{
+    margin-left: 400px;
+    margin-top: 300px;
+    position: absolute;
+}
+#am{
+    margin-left: 60px;
+    margin-top: 300px;
+    position: absolute;
+}
+#um{
+    margin-left: 40px;
+    margin-top: 300px;
+}
+#om{
+    margin-left: 30px;
+}
+.sir{
+    background-color: #020086;
+    width: 160px;
+    height: 50px;
+    margin-left: 80%;
+    position: absolute;
+    margin-top: 30px;
+    text-align: center;
+}
+.sar{
+    background-color: #020086;
+    width: 160px;
+    height: 50px;
+    margin-left: 55%;
+    margin-top: 30px;
+    position: absolute;
+}
+.sur{
+    background-color: #020086;
+    width: 160px;
+    height: 50px;
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 30px;
+}
+.sor{
+    background-color: #020086;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+#zer{
+    text-align: center;
+}
+.pied{
+    background-color: black;
+    width: 1456px;
+    height: 663px;
+    left: 0px;
+    top: 0px;
+ 
+}
+#yam{
+    position: absolute; 
+    margin-top: 15%;
+    margin-left: 8%;
+}
+#zam{
+    position: absolute; 
+    margin-top: 15%;
+    margin-left: 40%;
+}
+#gam{
+   position: absolute; 
+   margin-top: 15%;
+   margin-left: 70%;
+}
+.piedd{
+    width: 1458px;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+    background: #020086;
+   
+     }
+    #a{
+        list-style: none;
+        display:flex;
+        justify-content: center;
+        position: absolute;
+    }
+     #d{
+       width: 60px;
+       height:60px;
+       color: #FFFFFF;
+       font-size: 50px;
+       margin-top: 20px;
+    }
+    .immg{
+        cursor: pointer;
+    }
+    .immg:before{
+       position: absolute;
+       content: '';
+       top: 0;
+       left: 0;
+       background: #020086;
+       width: 232px;
+       height: 211px;
+       z-index:-1;
+       transform: scale(0.9);
+
+    }
+    .immg:hover:after{
+        transform: scale(1.2);
+        
+    }

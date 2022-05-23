@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1,300 & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+
+position: relative;
+width: 1270px;
+height: 2000px;;
+}
+nav{
+    height: 80px;
+    background: white;
+}
+nav{
+    background: #ffff;
+    height: 80px;
+    width: 100%;
+
+}
+nav ul{
+    float: right;
+    margin-right: 10px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 50px;
+    white-space: 10px;
+    margin-right: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+label{
+    color: white;
+    font-size: 5px;
+}
+.lg{
+    height: 70%;
+    width: 12%;
+    margin-top: 1%;
+    margin-left: 4%;
+}
+.block1{
+    width: 100%;
+    height: 28%;
+    background-image: url(NTV.jpg);
+}
+.block2{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    padding: 2 rem 5%;
+}
+.block3{
+    width: 100%;
+    height: 20%;
+    background-color: #efad10;
+}
+.block4{
+    width: 100%;
+    height: 26%;
+    background-color: white;
+}
+
+.block6{
+    width: 100%;
+    height: 10%;
+    background-color:blue;
+}
+
+.conttainer{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1.5rem;
+}
+.boz{
+    background: #020086;
+    padding: 100px 20px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 5);
+    flex: 1 0 20em;
+    margin: 2%;
+    
+}
+
+.texxt{
+    padding:  2%;
+}
+.texxxt{
+    padding:  2%;
+}
+.texxxt1{
+    padding:  2%;
+    align-items: center;
+}
+.texxxt2{
+    padding:  2%;
+
+}
+.tet{
+    background-color: white;
+}
+.COLO{
+    color: white;
+}
+.tte{
+position: absolute;
+width: 283px;
+height: 39px;
+left: 64px;
+padding-top: 3%;
+}
+.tte0{
+position: absolute;
+width: 253px;
+height: 39px;
+left: 340px;
+padding-top: 3%;
+    }
+.tte1{
+position: absolute;
+width: 270px;
+height: 39px;
+left: 650px;
+padding-top: 3%;
+}
+.tte2{
+padding-top: 3%;
+position: absolute;
+width: 283px;
+height: 39px;
+left: 1024px;
+}
+
+.cont{
+    width: 100%;
+    padding:10px;
+    background: #020086;
+    margin: 100px auto;
+    display: left;
+}
+.bzz{
+    width: 98%;
+    height: 300px;
+    background:white;
+    margin: 0px 10px;
+    margin:8px;
+}
+.ddd{
+position: absolute;
+width: 137px;
+height: 39px;
+left: 180px;
+padding-top: 1%;
+}
+.ddd1{
+position: absolute;
+width: 137px;
+height: 39px;
+left: 550px;
+padding-top: 1%;
+}
+.ddd2{
+    position: absolute;
+width: 188px;
+height: 39px;
+left: 920px;
+padding-top: 1%;
+}
+.POSI{
+    float: right;
+}
+.POSIT{
+    float: left;
+}
+.POSITI{
+    padding-top: 3%;
+}
+.block5{
+    width: 100%;
+    height: 18%;
+    background-color:black;;
+}
+.colum{
+    float: left;
+    width: 33.33%;
+    padding: 60px;
+    margin: 60;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.block6{
+    display: flex;
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background: #020086;
+}
+footer ul{
+    display: flex;
+}
+footer ul li{
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    background: #020086;
+    padding-top: 1%;
+}
